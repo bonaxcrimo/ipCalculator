@@ -1,0 +1,210 @@
+body {
+    background: #AEC4E9;
+    font-family: calibri;
+}
+/*Main Layout*/
+#main {
+    width: 50%;
+    height: 90vh;
+    margin: 5vh auto 0px auto;
+    color: #5d5d5d;
+}
+
+.sisi {
+    float: left;
+    height: 90vh;
+}
+
+#main .cal {
+    position: relative;
+    background: white;
+    width: 55%;
+    z-index: 1;
+}
+
+#main .hasil {
+    height: 90%;
+    margin-top: 5%;
+    position: relative;
+    z-index: 0;
+    width: 45%;
+    background: #fff;
+    transition: 0.5s ease-in-out;
+}
+div#tag {
+    height: 1em;
+    padding: 0.2em 0;
+}
+#main .hasil #tag .spasi:before {
+    content: ": ";
+}
+
+#main .hasil #tag .hasilJudul {
+    width: 49%;
+    float: left;
+}
+
+.addMargin {
+    margin-left: -45%;
+}
+
+.removeMargin {
+    margin-left: 0%;
+}
+
+.isi {
+    padding: 20px;
+}
+
+.pageHeader {
+    font-size: 28px;
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+    margin-bottom: 0.5em;
+}
+
+#main .cal .form {
+    height: 85%;
+}
+
+#main .cal input[type="text"] {
+    width: 96%;
+    padding: 3% 2%;
+    color: #666;
+}
+
+#form-IP {
+    margin-top: 2em;
+}
+
+.shadow {
+    box-shadow: 1px 50px 10px rgba(0, 0, 0, 0.2);
+}
+
+#main .cal .tombol {
+    height: 15%;
+    font-size: 20px;
+    line-height: 13.5vh;
+    text-align: center;
+    background: #FFF79A;
+}
+
+span#kanan {
+    float: right;
+}
+p.help {
+    font-size: 0.8em;
+    margin: 0.5em 0;
+    opacity: 0.8;
+}
+.borderLine {
+    border: none;
+    border: 1px solid #eee;
+}
+.error {
+    border: none;
+    border: 1px solid #FE566E;
+    transition: 1s linear;
+}
+span#close {
+    position: absolute;
+    right: 20px;
+    top: -45vh;
+    transition: 0.5 linear;
+}
+#main .hasil #konten{
+    height: 90%;
+}
+#main .hasil #copyright{
+    height: 10%;
+    text-align: center;
+}
+#copyright .bona{border-top: 1px solid #eee;padding: 1em 0;}
+/*End Main*/
+/*Warna*/
+
+.abu {
+    color: #bbb;
+}
+
+.red {
+    color: #FE566E;
+}
+.ungu {
+    background: #8781BD;
+    border: 1px solid #8781BD;
+}
+
+/*End Warna*/
+
+
+/*Animation from Animate.css*/
+
+@keyframes shake {
+    0%,
+    100% {
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        -webkit-transform: translateX(-10px);
+        -ms-transform: translateX(-10px);
+        transform: translateX(-10px);
+    }
+    20%,
+    40%,
+    60%,
+    80% {
+        -webkit-transform: translateX(10px);
+        -ms-transform: translateX(10px);
+        transform: translateX(10px);
+    }
+}
+
+.shake {
+    animation: shake 1s linear;
+}
+
+
+/*End Animation*/
+
+
+/*Custom Slider Range*/
+
+.ui-widget-content {
+    border: 1px solid #eee;
+}
+.ui-widget-header {
+    background: #eee;
+}
+#range {
+    margin-top: 1em;
+}
+#slider-Per {
+    margin-top: 1em;
+}
+.ui-corner-all {
+    border-radius: 8px;
+}
+.ui-slider-horizontal {
+    height: .4em;
+}
+.ui-slider-horizontal .ui-slider-handle {
+    top: -.3em;
+    margin-left: -.6em;
+}
+.ui-slider .ui-slider-handle {
+    width: .9em;
+    height: .9em;
+}
+.ui-draggable,
+.ui-droppable {
+    background-position: top;
+}
+
+/*End Custom*/
